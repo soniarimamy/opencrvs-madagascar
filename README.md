@@ -1,6 +1,6 @@
 <p align="center"> <a href="https://www.opencrvs.org"><img src="https://i.imgur.com/W7ULmox.png" title="source: imgur.com" / style="max-width:100%;"width="72" height="72"></a>
 </p>
-<h3 align="center">Farajaland country configuration repository</h3>
+<h3 align="center">Madagascar country configuration repository</h3>
 <p align="center">An example configuration for OpenCRVS using a fictional country
 <br>
 <a href="https://github.com/opencrvs/opencrvs-core/issues">Report an issue</a>  ·  <a href="https://community.opencrvs.org">Join our community</a>  ·  <a href="https://documentation.opencrvs.org">Read our documentation</a>  ·  <a href="https://www.opencrvs.org">www.opencrvs.org</a></p>
@@ -10,12 +10,12 @@
 
 - [What is this module for?](#what-is-this-module-for)
 - [How do I run the module alongside the OpenCRVS core?](#how-do-i-run-the-module-alongside-the-opencrvs-core)
-- [What is in the Farajaland configuration module repository?](#what-is-in-the-farajaland-configuration-module-repository)
+- [What is in the Madagascar configuration module repository?](#what-is-in-the-Madagascar-configuration-module-repository)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <br>
 
-**This is the fictional country "Farajaland" OpenCRVS country configuration repository for [OpenCRVS](https://github.com/opencrvs/opencrvs-core) You must fork this for your own country.**
+**This is the "Madagascar" OpenCRVS country configuration repository for [OpenCRVS](https://github.com/opencrvs/opencrvs-core) You must fork this for your own country.**
 
 <a href="https://documentation.opencrvs.org">Read our documentation</a> to learn how to set up your own country configuration using this repo as an example.
 
@@ -31,7 +31,7 @@ This module also provides a logical location where you may wish to store the cod
 
 1. Ensure that you are running [OpenCRVS Core](https://github.com/opencrvs/opencrvs-core).  
 
-**If you successfully ran the `bash setup.sh` script in OpenCRVS Core you already have this module checked out, the dependencies are installed, the Farajaland database is populated and you can just run the following command.** 
+**If you successfully ran the `bash setup.sh` script in OpenCRVS Core you already have this module checked out, the dependencies are installed, the Madagascar database is populated and you can just run the following command.** 
 
 2. `yarn dev <!-- PATH_TO_OPEN_CRVS_CORE_DIRECTORY -->` You can find out "PATH_TO_OPEN_CRVS_CORE_DIRECTORY" by running `pwd` in your opencrvs-core directory.
 
@@ -43,13 +43,13 @@ Thats it! 🎉
 
 In a separate Terminal window, checkout this repository and checkout the master branch.  The develop branch is used for active feature development.
 
-2. Run `git clone https://github.com/opencrvs/opencrvs-farajaland.git`
-3. Run `cd opencrvs-farajaland`
+2. Run `git clone https://github.com/soniarimamy/opencrvs-madagascar.git`
+3. Run `cd opencrvs-madagascar`
 4. Run `git checkout master`
 5. Run `yarn install`
 6. Run `yarn dev <!-- PATH_TO_OPEN_CRVS_CORE_DIRECTORY -->` You can find out "PATH_TO_OPEN_CRVS_CORE_DIRECTORY" by running `pwd` in your opencrvs-core directory.
 
-## What is in the Farajaland configuration module repository?
+## What is in the Madagascar configuration module repository?
 
 One of the key dependencies and enablers for OpenCRVS is country configuration and a reference data source. This source is bespoke for every implementing nation. If you would like to create your own country implementation, we recommend that you duplicate this repository and use it as a template. So what does it contain?
 
@@ -61,7 +61,7 @@ One of the key dependencies and enablers for OpenCRVS is country configuration a
 
 - Backups _(Backup zips of default reference data for a nation, for a factory reset, clean installation or for local development purposes.)_
 
-2. The [src](https://github.com/opencrvs/opencrvs-farajaland/master/src) folder contians the code required to run the configuration server and endpoints for receiving configuration values.  It also contains a handler to receive health notifications from an optional DHIS2 instance. It contains a "validate" webhook handler where you can integrate with an external system when OpenHIM recieves a registration. A K6 data-generator example is included that populates a demo environment with example registrations so you can see what performance analytics look like at scale.
+2. The [src](https://github.com/opencrvs/opencrvs-madagascar/master/src) folder contians the code required to run the configuration server and endpoints for receiving configuration values.  It also contains a handler to receive health notifications from an optional DHIS2 instance. It contains a "validate" webhook handler where you can integrate with an external system when OpenHIM recieves a registration. A K6 data-generator example is included that populates a demo environment with example registrations so you can see what performance analytics look like at scale.
 
 Required endpoints that CANNOT be changed:
 
