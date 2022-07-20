@@ -35,6 +35,24 @@
           "retieveUserNameNotification": "Votre nom d'utilisateur pour OpenCRVS est : {{username}}",
           "updateUserNameNotification": "Votre nom d'utilisateur pour OpenCRVS a été mis à jour en : {{username}}. Votre mot de passe n'a pas changé."
       }
+    },
+    {
+      "lang": "mg",
+      "displayName": "Malagasy",
+      "messages": {
+        "birthInProgressNotification": "Ny laharana afahanao manaraka ny fovoaran'ity firaketana fahaterahana ity dia {{trackingId}}. Tsy maintsy manantona ny {{crvsOffice}} ianao afahanao manao fanambarana.",
+          "birthDeclarationNotification": "Ny laharana afahanao manaraka ny fivoaran'ny firaketana fahaterahana an'i {{name}} dia {{trackingId}}. Hahazo SMS ianao afaka 2 andro mikasika ny fivoaran'ny raharaha sy ny dingana harahinao manaraka.",
+          "birthRegistrationNotification": "Arahabaina, ny fahaterahan'i {{name}} dia tafiditra soa aman-tsara. Mankanesa mankany amin'ny birao firaiketana fahaterahana akaiky anao afaka 5 andro miaraka amin'ny kara-panondro mba afahanao mahazo ilay certificat. Ny laharana afahanao manaraka ny fivoaran'ny raharaha dia {{trackingId}}.",
+          "birthRejectionNotification": "Ny fanambarana fahaterahana an'i {{name}} ( Tracking ID : {{trackingId}} ) dia nolavina. Miangavy anao hanantona ny birao firaketana fahaterahana akaiky anao hahafantatra ny antony bebe kokoa.",
+          "deathInProgressNotification": "Ny laharana afahanao manaraka ny firaketana an'ity fahafatesana ity dia {{trackingId}}. Tsy maintsy manantona ny {{crvsOffice}} ianao hameno ny fanambarana.",
+          "deathDeclarationNotification": "Ny laharana afahana manaraka ny fivoaran'ny firaketana fahafatesan'i {{name}} dia {{trackingId}}. Hahazo SMS ianao afaka 2 andro mikasika ny fivoaran'ny raharaha sy ny dingana harahinao manaraka.",
+          "deathRegistrationNotification": "Ny fahafatesan'i {{name}} dia tafiditra soa aman-tsara. Mankanesa manakany amin'ny birao fanmbarana fahafatesana afaka 5 andro miaraka amin'ny kara-panondronao mba afahanao mahazo ilay cetificat. Ny laharana afahanao manaraka ny fivoaran'ny raharaha dia {{trackingId}}.",
+          "deathRejectionNotification": "Fanambarana fahafatesana an'i {{name}} ( Tracking ID : {{trackingId}} ) dia nolavina. Mankanesa mankany amin'ny birao fanambarana fahaterahana misy anao raha mila fanazavana fanampiny.",
+          "authenticationCodeNotification": "Ny kaody afahanao miditra ao amin'ny OpenCRVS dia : {{authCode}}",
+          "userCredentialsNotification": "Afaka miditra ao amin'ny OpenCRVS ianao amin'ity anarana vonjy maika : {{username}} sy teny miafina : {{mot de passe}} ity.",
+          "retieveUserNameNotification": "Ny anaranao amin'ny OpenCRVS dia : {{username}}",
+          "updateUserNameNotification": "Ny anaranao ao amin'ny OpenCRVS dia niova ho : {{username}}. Ny teny miafina kosa dia tsy niova."
+      }
     }
   ]
 }

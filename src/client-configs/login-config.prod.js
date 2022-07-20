@@ -12,9 +12,9 @@
 window.config = {
   AUTH_API_URL: 'https://auth.{{hostname}}/',
   CONFIG_API_URL: 'https://config.{{hostname}}',
-  COUNTRY: 'FAR',
-  LANGUAGES: 'en,fr',
-  AVAILABLE_LANGUAGES_SELECT: 'en:English,fr:Français',
+  COUNTRY: 'MDG',
+  LANGUAGES: 'fr,en,mg',
+  AVAILABLE_LANGUAGES_SELECT: 'fr:Français,en:English,mg:Malagasy',
   CLIENT_APP_URL: 'https://register.{{hostname}}/',
   COUNTRY_CONFIG_URL: 'https://countryconfig.{{hostname}}',
   SENTRY:

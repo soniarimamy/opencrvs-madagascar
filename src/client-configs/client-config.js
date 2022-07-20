@@ -15,9 +15,9 @@ window.config = {
   LOGIN_URL: 'http://localhost:3020',
   AUTH_URL: 'http://localhost:4040',
   COUNTRY_CONFIG_URL: 'http://localhost:3040',
-  COUNTRY: 'FAR',
-  AVAILABLE_LANGUAGES_SELECT: 'en:English,fr:Français',
-  LANGUAGES: 'en,fr',
+  COUNTRY: 'MDG',
+  AVAILABLE_LANGUAGES_SELECT: 'fr:Français,en:English,mg:Malagasy',
+  LANGUAGES: 'fr,en,mg',
   SENTRY:
     'https://f892d643aab642108f44e2d1795706bc@o309867.ingest.sentry.io/1774604',
   LOGROCKET: 'opencrvs-foundation/opencrvs-farajaland',
